@@ -1,1 +1,1 @@
-# Github-Guides
+# Github Guides
