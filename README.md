@@ -84,3 +84,8 @@ There are two primary ways people collaborate on GitHub:
 1. Shared repository  
 2. Fork and pull  
 
+## Forking Projects
+After using GitHub by yourself for a while, you may find yourself wanting to contribute to someone else’s project. Or maybe you’d like to use someone’s project as the starting point for your own. This process is known as forking.  
+
+Creating a `fork` is producing a personal copy of someone else’s project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.  
+
