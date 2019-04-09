@@ -1,5 +1,25 @@
 # Github Guides  
 
+**Basic Git commands**  
+
+1. `git init` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.  
+2. `git clone` creates a local copy of the project.  
+3. `git add` stages a change.  
+4. `git commit` saves the snapshot staged with `git add` to the project's history.  
+5. `git status` shows the status of changes as **untracked**, **modified**, or **staged**.  
+6. `git merge` merges lines of development together. This command is typically used to combine changes made on two distinct branches.  
+7. `git pull` updates the local line of development with updates from its remote counterpart.  
+8. `git push` updates the remote repository with any commits made locally to a branch.  
+9. `git branch BRANCH_NAME` creates a branch from the `master`.  
+10. `git checkout BRANCH_NAME` switch to that branch.  
+11. `git push origin BRANCH_NAME` update the remote branch.  
+12. `git remote add origin REPO_LINK` provide the path for the repository you created on github.  
+13. `git log` shows all the commits.  
+14. `git checkout NUMBER_OF_COMMIT` returns to that commit.  
+15. `git rm -r --cached FILE_NAME` removes a file.  
+
+
+
 ## Understanding the GitHub flow
 GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.  
 
@@ -63,22 +83,6 @@ Go ahead and delete the branch, since its changes have been incorporated, with t
 
 
 ## Git Handbook
-**Basic Git commands**  
-
-1. `git init` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.  
-2. `git clone` creates a local copy of the project.  
-3. `git add` stages a change.  
-4. `git commit` saves the snapshot staged with `git add` to the project's history.  
-5. `git status` shows the status of changes as **untracked**, **modified**, or **staged**.  
-6. `git merge` merges lines of development together. This command is typically used to combine changes made on two distinct branches.  
-7. `git pull` updates the local line of development with updates from its remote counterpart.  
-8. `git push` updates the remote repository with any commits made locally to a branch.  
-9. `git branch BRANCH_NAME` creates a branch from the `master`.  
-10. `git checkout BRANCH_NAME` switch to that branch.  
-11. `git push origin BRANCH_NAME` update the remote branch.  
-12. `git remote add origin REPO_LINK` provide the path for the repository you created on github.  
-
-
 **Models for collaborative development**  
 There are two primary ways people collaborate on GitHub:  
 1. Shared repository  
@@ -88,4 +92,24 @@ There are two primary ways people collaborate on GitHub:
 After using GitHub by yourself for a while, you may find yourself wanting to contribute to someone else’s project. Or maybe you’d like to use someone’s project as the starting point for your own. This process is known as forking.  
 
 Creating a `fork` is producing a personal copy of someone else’s project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.  
+
+## Mastering Issues
+A **title** and **description** describe what the issue is all about.  
+
+Color-coded **labels** help you categorize and filter your issues (just like labels in email).  
+
+A **milestone** acts like a container for issues. This is useful for associating issues with specific features or project phases (e.g. Weekly Sprint 9/5-9/16 or Shipping 1.0).  
+
+One **assignee** is responsible for working on the issue at any given time.  
+
+**Comments** allow anyone with access to the repository to provide feedback.  
+
+
+
+
+
+
+
+
+
 
