@@ -61,3 +61,26 @@ Pull Requests are the heart of collaboration on GitHub. When you open a pull req
 2. Click **Confirm merge**.  
 Go ahead and delete the branch, since its changes have been incorporated, with the **Delete branch** button in the purple box.  
 
+
+## Git Handbook
+**Basic Git commands**  
+
+1. `git init` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.  
+2. `git clone` creates a local copy of the project.  
+3. `git add` stages a change.  
+4. `git commit` saves the snapshot staged with `git add` to the project's history.  
+5. `git status` shows the status of changes as **untracked**, **modified**, or **staged**.  
+6. `git merge` merges lines of development together. This command is typically used to combine changes made on two distinct branches.  
+7. `git pull` updates the local line of development with updates from its remote counterpart.  
+8. `git push` updates the remote repository with any commits made locally to a branch.  
+9. `git branch BRANCH_NAME` creates a branch from the `master`.  
+10. `git checkout BRANCH_NAME` switch to that branch.  
+11. `git push origin BRANCH_NAME` update the remote branch.  
+12. `git remote add origin REPO_LINK` provide the path for the repository you created on github.  
+
+
+**Models for collaborative development**  
+There are two primary ways people collaborate on GitHub:  
+1. Shared repository  
+2. Fork and pull  
+
